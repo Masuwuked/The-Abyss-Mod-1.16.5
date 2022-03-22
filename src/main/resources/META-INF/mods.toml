@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="the_abyss"
+version="1.0.0"
+displayName="The Abyss"
+credits="made by Mrmasked."
+displayURL="https://mrmasked001.github.io"
+authors="Mrmasked001"
+description='''
+my first mod which adds a new dimension and a biome. and some more stuff
+'''
+
+[[dependencies.the_abyss]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

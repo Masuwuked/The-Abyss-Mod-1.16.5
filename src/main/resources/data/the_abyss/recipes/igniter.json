@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:soul_campfire"
+    },
+    "1": {
+      "item": "minecraft:soul_sand"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "the_abyss:the_abyss",
+    "count": 1
+  }
+}

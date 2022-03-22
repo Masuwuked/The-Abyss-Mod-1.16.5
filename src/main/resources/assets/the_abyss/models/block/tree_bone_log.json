@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_abyss:blocks/treebonelog_up",
+    "up": "the_abyss:blocks/treebonelog_up",
+    "north": "the_abyss:blocks/treebonelog",
+    "east": "the_abyss:blocks/treebonelog",
+    "south": "the_abyss:blocks/treebonelog",
+    "west": "the_abyss:blocks/treebonelog",
+    "particle": "the_abyss:blocks/treebonelog_up"
+  }
+}

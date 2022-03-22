@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_abyss:blocks/portal_frame_final",
+    "up": "the_abyss:blocks/portal_frame_final",
+    "north": "the_abyss:blocks/portal_frame_final",
+    "east": "the_abyss:blocks/portal_frame_final",
+    "south": "the_abyss:blocks/portal_frame_final",
+    "west": "the_abyss:blocks/portal_frame_final",
+    "particle": "the_abyss:blocks/portal_frame_final"
+  }
+}

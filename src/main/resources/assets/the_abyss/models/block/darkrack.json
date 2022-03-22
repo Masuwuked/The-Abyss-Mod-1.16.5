@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_abyss:blocks/darkrackdefault",
+    "up": "the_abyss:blocks/darkrackdefault",
+    "north": "the_abyss:blocks/darkrackdefault",
+    "east": "the_abyss:blocks/darkrackdefault",
+    "south": "the_abyss:blocks/darkrackdefault",
+    "west": "the_abyss:blocks/darkrackdefault",
+    "particle": "the_abyss:blocks/darkrackdefault"
+  }
+}

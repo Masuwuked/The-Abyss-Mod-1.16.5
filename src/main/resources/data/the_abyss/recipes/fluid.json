@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:diamond"
+    },
+    "3": {
+      "item": "the_abyss:darkredstone"
+    },
+    "4": {
+      "item": "the_abyss:darkpurplestone"
+    },
+    "5": {
+      "item": "the_abyss:darkstone"
+    },
+    "7": {
+      "item": "minecraft:dragon_breath"
+    }
+  },
+  "result": {
+    "item": "the_abyss:darkfluid",
+    "count": 1
+  }
+}

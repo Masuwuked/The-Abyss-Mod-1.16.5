@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "the_abyss:block/the_abyss_portal_ew"
+    },
+    "axis=x": {
+      "model": "the_abyss:block/the_abyss_portal_ns"
+    }
+  }
+}

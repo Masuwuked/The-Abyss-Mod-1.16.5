@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "the_abyss:darkpurplestone"
+  },
+  "addition": {
+    "item": "the_abyss:darkredstone"
+  },
+  "result": {
+    "item": "the_abyss:darkstone"
+  }
+}

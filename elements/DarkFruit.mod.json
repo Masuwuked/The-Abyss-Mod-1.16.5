@@ -1,0 +1,31 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "darkfruit",
+    "customModelName": "Normal",
+    "name": "Dark Fruit",
+    "rarity": "RARE",
+    "specialInfo": [
+      "A fruit?? of the depths??"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:TheAbysselements"
+    },
+    "stackSize": 16,
+    "nutritionalValue": 4,
+    "saturation": 0.5,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": true,
+    "onEaten": {
+      "name": "DarkFruitFoodEaten"
+    }
+  }
+}

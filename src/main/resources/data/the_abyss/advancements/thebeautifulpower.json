@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "the_abyss:dark_fruit"
+    },
+    "title": {
+      "translate": "advancements.thebeautifulpower.title"
+    },
+    "description": {
+      "translate": "advancements.thebeautifulpower.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "thebeautifulpower": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "the_abyss:dark_fruit"
+        }
+      }
+    }
+  },
+  "parent": "minecraft:adventure/root"
+}

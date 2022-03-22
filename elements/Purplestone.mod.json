@@ -1,0 +1,23 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:Darkpurplestone"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:Darkredstone"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:Darkstone"
+    },
+    "name": "purplestone",
+    "namespace": "mod"
+  }
+}

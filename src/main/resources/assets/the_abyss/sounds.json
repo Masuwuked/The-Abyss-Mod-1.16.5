@@ -1,0 +1,61 @@
+{
+  "scream": {
+    "category": "hostile",
+    "subtitle": "subtitles.scream",
+    "sounds": [
+      {
+        "name": "the_abyss:demonic-woman-scream-6333",
+        "stream": false
+      }
+    ]
+  },
+  "darkdeath": {
+    "category": "neutral",
+    "subtitle": "subtitles.darkdeath",
+    "sounds": [
+      {
+        "name": "the_abyss:demon_dying_1",
+        "stream": false
+      }
+    ]
+  },
+  "roarboss": {
+    "category": "hostile",
+    "subtitle": "subtitles.roarboss",
+    "sounds": [
+      {
+        "name": "the_abyss:roar",
+        "stream": false
+      }
+    ]
+  },
+  "horrorambience": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "the_abyss:ambiencehorror",
+        "stream": true
+      }
+    ]
+  },
+  "step": {
+    "category": "hostile",
+    "subtitle": "subtitles.step",
+    "sounds": [
+      {
+        "name": "the_abyss:step",
+        "stream": false
+      }
+    ]
+  },
+  "diehat": {
+    "category": "hostile",
+    "subtitle": "subtitles.diehat",
+    "sounds": [
+      {
+        "name": "the_abyss:death",
+        "stream": false
+      }
+    ]
+  }
+}

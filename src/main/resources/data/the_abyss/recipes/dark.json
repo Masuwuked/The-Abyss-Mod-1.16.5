@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_abyss:darkfluid"
+    },
+    "1": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "2": {
+      "item": "the_abyss:darkstone"
+    },
+    "3": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "4": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "5": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "6": {
+      "item": "the_abyss:darkredstone"
+    },
+    "7": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "8": {
+      "item": "the_abyss:darkpurplestone"
+    }
+  },
+  "result": {
+    "item": "the_abyss:dark_fruit",
+    "count": 1
+  }
+}

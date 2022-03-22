@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_abyss:blocks/abyssportal",
+    "up": "the_abyss:blocks/abyssportal",
+    "north": "the_abyss:blocks/abyssportal",
+    "east": "the_abyss:blocks/abyssportal",
+    "south": "the_abyss:blocks/abyssportal",
+    "west": "the_abyss:blocks/abyssportal",
+    "particle": "the_abyss:blocks/abyssportal"
+  }
+}

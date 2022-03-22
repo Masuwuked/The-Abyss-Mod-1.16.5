@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Darkredstone"
+      },
+      {
+        "value": "CUSTOM:Darkpurplestone"
+      },
+      {
+        "value": "CUSTOM:Darkstone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DRAGON_BREATH"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Darkfluid"
+    },
+    "name": "fluid",
+    "namespace": "mod"
+  }
+}

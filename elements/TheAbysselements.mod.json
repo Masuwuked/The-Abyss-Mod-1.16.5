@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "The Abyss elements",
+    "icon": {
+      "value": "CUSTOM:Abyssframe"
+    },
+    "showSearch": false
+  }
+}

@@ -1,0 +1,435 @@
+{
+  "mod_elements": [
+    {
+      "name": "Abyssframe",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssframe"
+    },
+    {
+      "name": "DarkFruitFoodEaten",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_fruit_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkFruit",
+      "type": "food",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_fruit"
+    },
+    {
+      "name": "Thebeautifulpower",
+      "type": "achievement",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thebeautifulpower"
+    },
+    {
+      "name": "Darkrackupper",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkrackupper"
+    },
+    {
+      "name": "Darkrack",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkrack"
+    },
+    {
+      "name": "Darkwastlands",
+      "type": "biome",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkwastlands"
+    },
+    {
+      "name": "TheAbyss",
+      "type": "dimension",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_abyss",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "TreeBoneLog",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tree_bone_log"
+    },
+    {
+      "name": "TreeBoneLeaves",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tree_bone_leaves"
+    },
+    {
+      "name": "Boneforestrack",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boneforestrack"
+    },
+    {
+      "name": "Boneforstrack",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boneforstrackdeep"
+    },
+    {
+      "name": "DarkForest",
+      "type": "biome",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_forest"
+    },
+    {
+      "name": "DarkZombies",
+      "type": "livingentity",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_zombies"
+    },
+    {
+      "name": "Abyssdrame",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssdrame"
+    },
+    {
+      "name": "Abyssb",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssb"
+    },
+    {
+      "name": "Igniter",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "igniter"
+    },
+    {
+      "name": "Darkredstone",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkredstone"
+    },
+    {
+      "name": "Redstone",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone"
+    },
+    {
+      "name": "Darkpurplestone",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkpurplestone"
+    },
+    {
+      "name": "Purplestone",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purplestone"
+    },
+    {
+      "name": "Darkfluid",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkfluid"
+    },
+    {
+      "name": "Darkstone",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkstone"
+    },
+    {
+      "name": "Dark",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark"
+    },
+    {
+      "name": "Thestones",
+      "type": "achievement",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thestones"
+    },
+    {
+      "name": "Fluid",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluid"
+    },
+    {
+      "name": "Black",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black"
+    },
+    {
+      "name": "TheAbysselements",
+      "type": "tab",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_abysselements"
+    },
+    {
+      "name": "CorruptedForest",
+      "type": "biome",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_forest"
+    },
+    {
+      "name": "LavaWell",
+      "type": "structure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_well"
+    },
+    {
+      "name": "Bossboi",
+      "type": "livingentity",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bossboi"
+    },
+    {
+      "name": "Deeper",
+      "type": "achievement",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deeper"
+    },
+    {
+      "name": "BonePlanks",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_planks"
+    },
+    {
+      "name": "Bonewood",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonewood"
+    },
+    {
+      "name": "Knife",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife"
+    },
+    {
+      "name": "DarkKinfe",
+      "type": "rangeditem",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_kinfe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "scream",
+      "files": [
+        "demonic-woman-scream-6333"
+      ],
+      "category": "hostile",
+      "subtitle": "dark screams"
+    },
+    {
+      "name": "darkdeath",
+      "files": [
+        "demon_dying_1"
+      ],
+      "category": "neutral",
+      "subtitle": "Dark dies"
+    },
+    {
+      "name": "roarboss",
+      "files": [
+        "roar"
+      ],
+      "category": "hostile",
+      "subtitle": "the Demon Roars"
+    },
+    {
+      "name": "horrorambience",
+      "files": [
+        "ambiencehorror"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "step",
+      "files": [
+        "step"
+      ],
+      "category": "hostile",
+      "subtitle": "The Demon Roams"
+    },
+    {
+      "name": "diehat",
+      "files": [
+        "death"
+      ],
+      "category": "hostile",
+      "subtitle": "The Demon Dies"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.the_abyss.boneforstrackdeep": "BoneforestRack",
+      "subtitles.roarboss": "the Demon Roars",
+      "biome.the_abyss.corrupted_forest": "Corrupted Forest",
+      "advancements.thebeautifulpower.title": "The Demons power",
+      "block.the_abyss.abyssframe": "Abyss frame",
+      "item.the_abyss.darkredstone": "Dark Red Stone",
+      "item.the_abyss.darkpurplestone": "Dark Purple Stone",
+      "block.the_abyss.boneforestrack": "Boneforest Surface",
+      "advancements.thestones.descr": "Make the Dark Fluid by Collecting all 3 sones of the depths.",
+      "advancements.deeper.descr": "Craft a Abyss portal Frame.",
+      "item.the_abyss.the_abyss": "The Abyss Igniter",
+      "advancements.thestones.title": "The Stone Fluid",
+      "subtitles.darkdeath": "Dark dies",
+      "advancements.thebeautifulpower.descr": "Craft and Eat a Darkfruit of the Abyss",
+      "block.the_abyss.tree_bone_log": "Tree Bone Log",
+      "entity.the_abyss.dark_zombies": "Dark Zombies",
+      "item.the_abyss.dark_zombies_spawn_egg": "Dark Zombies Spawn Egg",
+      "subtitles.scream": "dark screams",
+      "subtitles.diehat": "The Demon Dies",
+      "biome.the_abyss.darkwastlands": "Darkwastlands",
+      "item.the_abyss.dark_fruit": "Dark Fruit",
+      "advancements.deeper.title": "The Key of Going Deeper Than Nether??..",
+      "subtitles.step": "The Demon Roams",
+      "item.the_abyss.bossboi_spawn_egg": "The Demon Spawn Egg",
+      "subtitles.horrorambience": "",
+      "item.the_abyss.darkstone": "Dark Stone",
+      "block.the_abyss.darkrackupper": "Darkrack Surface",
+      "block.the_abyss.tree_bone_leaves": "Tree Bone Leaves",
+      "block.the_abyss.darkrack": "Darkrack",
+      "block.the_abyss.abyssb": "Abyss Portal",
+      "item.the_abyss.darkfluid": "Darkfluid",
+      "block.the_abyss.bone_planks": "Bone Planks",
+      "item.the_abyss.dark_kinfe": "Dark Kinfe",
+      "entity.the_abyss.bossboi": "The Demon",
+      "biome.the_abyss.dark_forest": "Dark Forest",
+      "item.the_abyss.knife": "Knife Shard",
+      "itemGroup.tabthe_abysselements": "The Abyss elements"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "the_abyss",
+    "modName": "The Abyss",
+    "version": "1.0.0",
+    "description": "my first mod which adds a new dimension and a biome. and some more stuff",
+    "author": "Mrmasked001",
+    "websiteURL": "https://mrmasked001.github.io",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "made by Mrmasked.",
+    "modElementsPackage": "net.mcreator.theabyss",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "the_abyss:tree_bone_log"
+    }
+  ],
+  "result": {
+    "item": "the_abyss:bone_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_abyss:blocks/wood2",
+    "up": "the_abyss:blocks/wood2",
+    "north": "the_abyss:blocks/wood2",
+    "east": "the_abyss:blocks/wood2",
+    "south": "the_abyss:blocks/wood2",
+    "west": "the_abyss:blocks/wood2",
+    "particle": "the_abyss:blocks/wood2"
+  }
+}
