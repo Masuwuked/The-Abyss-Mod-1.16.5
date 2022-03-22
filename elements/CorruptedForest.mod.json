@@ -18,7 +18,7 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": ""
+      "value": "CUSTOM:forest_ambience"
     },
     "additionsSound": {
       "value": ""
@@ -79,7 +79,7 @@
     "villageType": "none",
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": false,
-    "spawnDesertPyramid": true,
+    "spawnDesertPyramid": false,
     "spawnSwampHut": false,
     "spawnIgloo": false,
     "spawnOceanMonument": false,
@@ -88,7 +88,7 @@
     "spawnBuriedTreasure": false,
     "oceanRuinType": "NONE",
     "spawnNetherBridge": false,
-    "spawnNetherFossil": false,
+    "spawnNetherFossil": true,
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",

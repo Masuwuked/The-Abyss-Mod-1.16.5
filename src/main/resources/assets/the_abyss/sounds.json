@@ -1,14 +1,4 @@
 {
-  "scream": {
-    "category": "hostile",
-    "subtitle": "subtitles.scream",
-    "sounds": [
-      {
-        "name": "the_abyss:demonic-woman-scream-6333",
-        "stream": false
-      }
-    ]
-  },
   "darkdeath": {
     "category": "neutral",
     "subtitle": "subtitles.darkdeath",
@@ -54,6 +44,25 @@
     "sounds": [
       {
         "name": "the_abyss:death",
+        "stream": false
+      }
+    ]
+  },
+  "forest_ambience": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "the_abyss:forsetamb",
+        "stream": true
+      }
+    ]
+  },
+  "scream": {
+    "category": "hostile",
+    "subtitle": "subtitles.scream",
+    "sounds": [
+      {
+        "name": "the_abyss:demonic-woman-scream-6333",
         "stream": false
       }
     ]

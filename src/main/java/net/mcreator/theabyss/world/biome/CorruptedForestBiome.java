@@ -38,6 +38,7 @@ import net.minecraft.util.registry.WorldGenRegistries;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.math.MutableBoundingBox;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.util.Direction;
 import net.minecraft.state.BooleanProperty;
@@ -70,13 +71,16 @@ public class CorruptedForestBiome extends TheAbyssModElements.ModElement {
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
 			if (biome == null) {
 				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-10079233).setWaterColor(4159204).setWaterFogColor(329011)
-						.withSkyColor(-10079233).withFoliageColor(10387789).withGrassColor(-10092442).build();
+						.withSkyColor(-10079233).withFoliageColor(10387789).withGrassColor(-10092442)
+						.setAmbientSound((net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+								.getValue(new ResourceLocation("the_abyss:forest_ambience")))
+						.build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
 								Blocks.DIORITE.getDefaultState(), Blocks.DIORITE.getDefaultState())));
 				biomeGenerationSettings.withStructure(StructureFeatures.MINESHAFT);
 				biomeGenerationSettings.withStructure(StructureFeatures.MINESHAFT_BADLANDS);
-				biomeGenerationSettings.withStructure(StructureFeatures.DESERT_PYRAMID);
+				biomeGenerationSettings.withStructure(StructureFeatures.NETHER_FOSSIL);
 				biomeGenerationSettings.withFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.TREE
 						.withConfiguration((new BaseTreeFeatureConfig.Builder(new SimpleBlockStateProvider(TreeBoneLogBlock.block.getDefaultState()),
 								new SimpleBlockStateProvider(TreeBoneLeavesBlock.block.getDefaultState()),

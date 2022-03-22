@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "the_abyss:knife"
+    },
+    "4": {
+      "item": "the_abyss:bone_planks"
+    },
+    "6": {
+      "item": "the_abyss:tree_bone_log"
+    },
+    "8": {
+      "item": "the_abyss:knife"
+    }
+  },
+  "result": {
+    "item": "the_abyss:dark_kinfe",
+    "count": 1
+  }
+}

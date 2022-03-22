@@ -314,18 +314,42 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_kinfe"
+    },
+    {
+      "name": "Dknife",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dknife"
+    },
+    {
+      "name": "DarkLightStone",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_light_stone"
+    },
+    {
+      "name": "Ruinedportalabyss",
+      "type": "structure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruinedportalabyss"
+    },
+    {
+      "name": "Trees",
+      "type": "structure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trees"
     }
   ],
   "variable_elements": [],
   "sound_elements": [
-    {
-      "name": "scream",
-      "files": [
-        "demonic-woman-scream-6333"
-      ],
-      "category": "hostile",
-      "subtitle": "dark screams"
-    },
     {
       "name": "darkdeath",
       "files": [
@@ -365,6 +389,22 @@
       ],
       "category": "hostile",
       "subtitle": "The Demon Dies"
+    },
+    {
+      "name": "forest_ambience",
+      "files": [
+        "forsetamb"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "scream",
+      "files": [
+        "demonic-woman-scream-6333"
+      ],
+      "category": "hostile",
+      "subtitle": "dark screams"
     }
   ],
   "language_map": {
@@ -387,6 +427,7 @@
       "entity.the_abyss.dark_zombies": "Dark Zombies",
       "item.the_abyss.dark_zombies_spawn_egg": "Dark Zombies Spawn Egg",
       "subtitles.scream": "dark screams",
+      "block.the_abyss.dark_light_stone": "Dark Light Stone",
       "subtitles.diehat": "The Demon Dies",
       "biome.the_abyss.darkwastlands": "Darkwastlands",
       "item.the_abyss.dark_fruit": "Dark Fruit",
@@ -399,6 +440,7 @@
       "block.the_abyss.tree_bone_leaves": "Tree Bone Leaves",
       "block.the_abyss.darkrack": "Darkrack",
       "block.the_abyss.abyssb": "Abyss Portal",
+      "subtitles.forest_ambience": "",
       "item.the_abyss.darkfluid": "Darkfluid",
       "block.the_abyss.bone_planks": "Bone Planks",
       "item.the_abyss.dark_kinfe": "Dark Kinfe",

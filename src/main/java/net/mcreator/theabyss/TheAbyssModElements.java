@@ -46,13 +46,15 @@ public class TheAbyssModElements {
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 
 	public TheAbyssModElements() {
-		sounds.put(new ResourceLocation("the_abyss", "scream"), new net.minecraft.util.SoundEvent(new ResourceLocation("the_abyss", "scream")));
 		sounds.put(new ResourceLocation("the_abyss", "darkdeath"), new net.minecraft.util.SoundEvent(new ResourceLocation("the_abyss", "darkdeath")));
 		sounds.put(new ResourceLocation("the_abyss", "roarboss"), new net.minecraft.util.SoundEvent(new ResourceLocation("the_abyss", "roarboss")));
 		sounds.put(new ResourceLocation("the_abyss", "horrorambience"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("the_abyss", "horrorambience")));
 		sounds.put(new ResourceLocation("the_abyss", "step"), new net.minecraft.util.SoundEvent(new ResourceLocation("the_abyss", "step")));
 		sounds.put(new ResourceLocation("the_abyss", "diehat"), new net.minecraft.util.SoundEvent(new ResourceLocation("the_abyss", "diehat")));
+		sounds.put(new ResourceLocation("the_abyss", "forest_ambience"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("the_abyss", "forest_ambience")));
+		sounds.put(new ResourceLocation("the_abyss", "scream"), new net.minecraft.util.SoundEvent(new ResourceLocation("the_abyss", "scream")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("the_abyss").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
